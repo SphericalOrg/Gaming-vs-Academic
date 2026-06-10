@@ -1,0 +1,6 @@
+pandas>=3.0
+mlxtend>=0.25
+matplotlib>=3.10
+seaborn>=0.13
+jupyter
+ipykernel
