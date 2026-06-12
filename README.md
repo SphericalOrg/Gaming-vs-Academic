@@ -23,11 +23,13 @@ La definición formal completa está en los notebooks.
 
 | Ruta | Contenido |
 |---|---|
-| `notebooks/00_analisis_completo.ipynb` | Pipeline completo de punta a punta (versión autocontenida) |
-| `notebooks/01_exploracion_discretizacion.ipynb` | Parte 1: perfilado, limpieza de outliers, discretización por cuartiles |
-| `notebooks/02_reglas_asociacion.ipynb` | Parte 2: definición del problema, Apriori, reglas y conclusiones |
+| `notebooks/miercoles10/00_analisis_completo.ipynb` | Pipeline completo de punta a punta (versión autocontenida) |
+| `notebooks/miercoles10/01_exploracion_discretizacion.ipynb` | Parte 1: perfilado, limpieza de outliers, discretización por cuartiles |
+| `notebooks/miercoles10/02_reglas_asociacion.ipynb` | Parte 2: definición del problema, Apriori, reglas y conclusiones |
+| `notebooks/viernes12/03_export_reglas.ipynb` | Reproduce la minería del notebook 02 y exporta **todas** las reglas (sin filtro de lift) a CSV |
 | `data/raw/Gaming_Academic_Performance.csv` | [Dataset original](data/raw/Gaming_Academic_Performance.csv) (Kaggle, 8000 estudiantes) — se conserva intacto como respaldo |
 | `data/processed/dataset_discretizado.csv` | Dataset limpio y discretizado, generado por el notebook 01 |
+| `data/processed/reglas_todas.csv` | Las 7886 reglas (todas, sin filtro de lift), generadas por el notebook 03 |
 
 ## Cómo ejecutar
 
@@ -37,4 +39,4 @@ python3 -m venv .venv
 .venv/bin/jupyter lab   # o jupyter notebook
 ```
 
-Los notebooks ya vienen ejecutados (outputs incluidos). Para re-ejecutar desde cero: correr `01` antes que `02` (genera `data/processed/`); `00` es independiente.
+Los notebooks ya vienen ejecutados (outputs incluidos). Para re-ejecutar desde cero: correr `01` antes que `02` y `03` (genera `data/processed/`); `00` es independiente. Los notebooks resuelven la raíz del repo automáticamente, así que el kernel puede arrancar desde la raíz o desde la carpeta del notebook.

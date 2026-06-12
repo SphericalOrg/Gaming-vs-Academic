@@ -2,5 +2,7 @@ pandas>=3.0
 mlxtend>=0.25
 matplotlib>=3.10
 seaborn>=0.13
+plotly>=6.0
+streamlit>=1.58
 jupyter
 ipykernel
