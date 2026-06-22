@@ -2,4 +2,4 @@
 |--------------------|-------------|
 | Cristóbal Cariqueo | Controles   |
 | Jun Sáez           | Prueba      |
-| Felipe Seguel      |             |
+| Felipe Seguel      | Prueba      |
