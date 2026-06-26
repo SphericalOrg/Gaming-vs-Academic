@@ -1,0 +1,12 @@
+{
+  "gaming_hours": 2.0,
+  "study_hours": 7.5,
+  "sleep_hours": 7.0,
+  "attendance": 90.0,
+  "gaming_genre": "Casual",
+  "social_activity": 3.0,
+  "device_usage": 5.0,
+  "reaction_time_ms": 300.0,
+  "addiction_score": 4.0,
+  "stress_level": "Medium"
+}

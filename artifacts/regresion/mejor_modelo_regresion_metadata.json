@@ -1,0 +1,42 @@
+{
+  "modelo": "Random forest",
+  "target": "grades",
+  "features": [
+    "gaming_hours",
+    "study_hours",
+    "sleep_hours",
+    "attendance",
+    "gaming_genre",
+    "social_activity",
+    "device_usage",
+    "reaction_time_ms",
+    "addiction_score",
+    "stress_level"
+  ],
+  "features_numericas": [
+    "gaming_hours",
+    "study_hours",
+    "sleep_hours",
+    "attendance",
+    "social_activity",
+    "device_usage",
+    "reaction_time_ms",
+    "addiction_score"
+  ],
+  "features_categoricas": [
+    "gaming_genre",
+    "stress_level"
+  ],
+  "features_excluidas": [
+    "student_id",
+    "age",
+    "gender"
+  ],
+  "metricas_test": {
+    "MAE": 4.767306838993031,
+    "RMSE": 6.1156651138721845,
+    "MAPE_pct": 9.560415158460964,
+    "R2": 0.9211095133117732
+  },
+  "nota": "El modelo final se reentrena con todas las filas limpias usando la configuracion seleccionada por la evaluacion train/test."
+}
