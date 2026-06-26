@@ -42,4 +42,4 @@ python3 -m venv .venv
 Los notebooks ya vienen ejecutados (outputs incluidos). Para re-ejecutar desde cero: correr `01` antes que `02` y `03` (genera `data/processed/`); `00` es independiente. Los notebooks resuelven la raíz del repo automáticamente, así que el kernel puede arrancar desde la raíz o desde la carpeta del notebook.
 
 ## Papelografo
-![Papelografo entrega 3](./assets/papelografo.png)
+![Papelografo entrega 3](./assets/papelografo.jng)
